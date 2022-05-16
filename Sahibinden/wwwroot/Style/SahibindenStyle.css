@@ -1,15 +1,84 @@
-﻿body {  
+﻿body {
+    box-sizing: border-box;
+    font-family: Lato, Arial;
+    text-align: center;
+    background-color: gainsboro;
 }
-#header {
-    background-color: red;
-    height: 50px;
-    width: 20px;
-    margin: 0px auto;
+h2 {
+    color: black;
+    background-color: yellow;
+    font-weight: 400;
+    text-align: center;
+    font-size: 200%;
 }
-#Logo {
-    width: 50px;
-    height: 50px;
-    padding: 500px;
+
+h4 {
+    color: black;
+    font-size: 150%;
+    font-weight: 300;
+    text-align: left;
+    font-family:Verdana;
+    margin-left: 70px;
+}
+
+button {
+    display: inline;
+    background: #01A4E0;
+    color: deepskyblue;
+    border: 0;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    width: 58%;
+    height: 30px;
     margin: 10px;
-    margin-left: 700px;
+    padding: 10px;
 }
+
+small {
+    display: inline-block;
+    margin-top: 5px;
+    color: white;
+    font-size: 100%;
+    color: #fff;
+}
+
+.login-box {
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.outer-box {
+    display: block;
+    margin: auto;
+    background: white;;
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+}
+
+#btn-forgot {
+    display: block;
+    width: 30%;
+    margin-left: 160px;
+    border-radius: 2px;
+    color: blue;
+    background-color: white;
+}
+
+#btn-login {
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin-top: 2.0em;
+    border-radius: 4px;
+    background-color: deepskyblue;
+    color: #fff;
+}
+
+
