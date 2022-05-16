@@ -1,0 +1,48 @@
+﻿body {
+    margin: 0px;
+    background-color: lightblue
+}
+.header {
+    background-color: dodgerblue;
+    height: 65px;
+    padding-top: 15px;
+}
+.baglantilar ul li {
+    margin: 1px;
+    list-style-type: none;
+    display: inline-block;
+}
+.baglantilar ul li a {
+    text-decoration: none;
+    margin: -30px;
+    color: white;
+    float: left;
+    margin-left: 340px;
+}
+#txtSearch {
+    padding: 0px 110px;
+    color: black;
+    margin: -55px;
+    height: 25px;
+    float: right;
+    margin-right: 330px;
+}
+#txtSearch:focus {
+    outline: none;
+}
+.header2 {
+    background-color: white;
+    height: 65px;
+    padding-top: 15px;
+}
+#Logo {
+    width: 263px;
+    float: left;
+    margin-left: 380px;
+}
+#SoruMail {
+    width: 400px;
+    height: 40px;
+    float: right;
+    margin-right: 330px;
+}

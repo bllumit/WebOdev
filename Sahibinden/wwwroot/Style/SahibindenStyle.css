@@ -1,0 +1,15 @@
+﻿body {  
+}
+#header {
+    background-color: red;
+    height: 50px;
+    width: 20px;
+    margin: 0px auto;
+}
+#Logo {
+    width: 50px;
+    height: 50px;
+    padding: 500px;
+    margin: 10px;
+    margin-left: 700px;
+}
